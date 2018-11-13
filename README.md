@@ -1,7 +1,7 @@
 ## Google Play Music Total Library Listen Time
 This is a super basic script to get the total listen time of every song currently in the user's library.  It only counts song in the player's library, so any songs listened to in a station or the like won't be counted.
 
-(Generate an app password to use in scripts like this!)[https://myaccount.google.com/apppasswords]
+[Generate an app password to use in scripts like this!](https://myaccount.google.com/apppasswords)
 
 Just edit the file to the the appropriate login information and run it using `python totallistentime.py`.
 
@@ -22,7 +22,7 @@ It will output every album with every song it finds with at least one play.  It 
              13: (198, '374000'),
              14: (198, '410000')},
 
-At the end it will display the total number of miliseconds and the total play time converted a human-readable format.
+At the end it will display the total number of miliseconds listened and the total play time converted a human-readable format.
 
     7514133010
     86 days, 23:15:33.010000
